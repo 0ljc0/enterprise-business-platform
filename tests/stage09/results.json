@@ -1,0 +1,317 @@
+[
+  {
+    "case": "任务发布方报价",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "计划工作量按快照单价估值",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "实际确认工作量独立展示",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "进度仅计已确认量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "发布方更新报价",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已有项目快照不随任务报价重算",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "报价旧版本拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "负报价拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "报价超过四位小数拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务不能修改任务报价",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台不能改企业发布方报价",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不能改报价",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未报价不按零估算",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已有缺价项目不被自动覆盖",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "本企业主动补录缺失快照",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "补录后金额可计算",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "快照补录幂等且不覆盖",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不能补录快照",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "归档项目禁止补录报价",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "归档缺价报表保留未报价",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "新旧项目分别保留报价快照",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "任务单位变更后旧报价失效",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台工作台企业数",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台工作台员工去重人数",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台工作台项目数",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台本月产值仅计已报",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业工作台范围正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "日趋势与已报明细一致",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "月趋势与已报明细一致",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "草稿退回金额单列",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务可查看本企业产值",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业统计查询拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事无财务统计权限",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事仅获得人员报表",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事员工档案范围",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务无人员明细权限",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "业务岗无财务核对报表权限",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工无统计工作台",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业无平台全量报表",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台可查全量业务报表",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "非法报表类型拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "非法分组拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "过大日期区间拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "项目统计与执行明细一致",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务按完整自然月核对",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "无快照不伪造零差异",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "overview Excel可解析",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "outputs Excel可解析",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "projects Excel可解析",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "estimates Excel可解析",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "personnel Excel可解析",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "reconciliation Excel可解析",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "full Excel可解析",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "Excel中文工作表与冻结筛选",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "Excel公式样文本不执行",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业Excel导出拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业伪造全量导出拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事财务Excel导出拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工Excel导出拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台全量Excel包含业务分表",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "报表金额精度不经浮点丢失",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "Excel高精度金额按文本完整保留",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "匿名报表查询拒绝",
+    "passed": true,
+    "detail": ""
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "case": "普通员工不能发布",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务不能发布",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "目标量必须为正",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业容量校验",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台创建草稿",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不可查看未发布平台草稿",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台修改草稿",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "历史版本修改拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台发布任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台任务详情不暴露发布账号信息",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业可查询可报名任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "发布后禁止改任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不可改平台任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工不可报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "报名工作量正数校验",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业A报名成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业重复报名拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业B无法查A报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不可审核报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "空审核意见拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "待审核允许撤回",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "撤回后可重新提交",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台驳回报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "驳回后可修改重提",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审核轮次递增",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台审核通过",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "报名通过可进入分配环节",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已通过不可取消",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复审核拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审批意见历史留存",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "承诺量超过剩余总量拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业B在剩余容量内报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已通过数量统计正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "满容量任务退出可报名列表",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业仅看自己的报名记录",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台可集中查看报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不能创建共享任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业内部任务容量固定一家",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业创建内部草稿",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不能改草稿",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "内部草稿不公开",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业发布内部任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "内部任务不在其他企业列表",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "内部任务不向其他企业公开",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "内部任务跨企业报名拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "本企业可承接内部任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "内部任务无需平台重复审核",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "并发审核不突破企业容量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审核再次校验剩余工作量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "并发审核不突破总工作量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "任务关闭招募",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "关闭后不能通过待审报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "关闭后可驳回待审报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "关闭后不可重提",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台任务关闭",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "关闭保留已通过报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "关闭任务不在可报名列表",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "截止已过不可发布",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "截止后不能报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "截止后已有报名仍可审核",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "连续漏报仍仅提醒",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "漏报不会阻止企业报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "数据库约束拒绝企业共享",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "匿名任务查询拒绝",
+    "passed": true,
+    "detail": ""
+  }
+]

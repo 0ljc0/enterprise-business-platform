@@ -1,0 +1,402 @@
+[
+  {
+    "case": "已通过任务可作为项目来源",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "历史缺日期演示任务不进入候选",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "历史缺日期任务明确拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务不可建项目",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不可关联报名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审核通过报名建项目",
+    "passed": true,
+    "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+  },
+  {
+    "case": "重复关联拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业项目目标取承诺量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台可查看项目进度",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业项目详情拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工不能查看全项目成员",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业员工分配拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "分配超承诺量拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未完成项目不能确认",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "向员工分配任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "第二次分配超剩余量拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "员工只看本人分配",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "同企业其他员工不可查详情",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不可领取",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "同企业他人不可领取",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未领取不可上报",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "员工领取任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复领取拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未来工作日期拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "零工作量拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "超过分配量拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "保存每日工作量草稿",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "同日期重复上报拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "草稿不计入进度",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "提交工作量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "待审核不计入进度",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已提交不能直接改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业无权审核",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审核退回",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "退回后员工可更正",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "更正重提",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "工作量确认",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复确认工作量拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "进度30百分比准确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "尚未达到分配量不能完成",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已确认不得直接改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "更正退回需意见",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已确认留痕退回更正",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "退回更正暂不计入进度",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "更正数量保存",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "更正后进度60百分比",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "员工完成任务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已完成分配禁止更正",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "作废草稿留痕",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "作废记录可修改后再提",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "业务岗不能审核自己工作量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "项目总量进度百分比正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "成员工作量汇总正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "工作量更正与审批可追溯",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未确认项目不能归档",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "项目完成确认",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业执行状态更新完成",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "项目归档",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "归档状态可查询",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "归档后禁止再分配",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "归档后禁止修改工作记录",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "任务完成确认",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "任务已完成状态正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "关联已有同单位项目",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "不同单位不能混入同一项目",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨任务同成员汇总不重复",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "每条分配进度独立",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "并发分配不超企业承诺量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "待领取分配可取消",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "取消后可重新分配",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "匿名执行接口拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未审核报名不得建项目",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台任务企业项目目标取各自承诺量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台任务不能因一家完成就提前结束",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不能确认平台任务完成",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业B核验自己的工作量",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业B独立进度100百分比",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "全部企业完成后平台任务可完成",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务不可读取其他企业项目",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "并发同日报量只保存一条",
+    "passed": true,
+    "detail": ""
+  }
+]

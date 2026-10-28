@@ -1,0 +1,157 @@
+[
+  {
+    "case": "营业执照上传",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "伪装PDF拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "非法信用代码拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "冒用他人附件拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "保存草稿",
+    "passed": true,
+    "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+  },
+  {
+    "case": "重复申请拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "本人查看申请",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不可读申请",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "无token不可查看",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "草稿提交",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复提交拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通用户不可审核",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "空审核意见拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "驳回成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "驳回意见留存",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "驳回后修改成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "旧版本修改拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重新提交成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审批轮次递增",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审核通过成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复审批拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "通过状态及双轮轨迹",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重新登录获得企业管理员角色",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业正常且仅看自己",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业资料修改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不可修改其他企业",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已入驻账号不可重复申请",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "禁止平台自审",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "本人可下载执照",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台可下载执照",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业禁止下载执照",
+    "passed": true,
+    "detail": ""
+  }
+]

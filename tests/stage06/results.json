@@ -1,0 +1,242 @@
+[
+  {
+    "case": "默认仅工作日及提醒模式",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不可配置规则",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "计报起点配置",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "周末不计入漏报",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "连续工作日计数正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "漏报不限制既有任务查询",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "模式保持仅提醒",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业漏报查询拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工无填报查询权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务不能保存",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "负值拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未来日期拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "不同计量单位拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "非法日期查询拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "非法月份拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "正常提交并查询",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "同日重复保存拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已提交不可直接改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复提交拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业直接明细拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业提交拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "草稿不算完成提交",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "单独配置节假日",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "节假日从漏报移除",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "调休周末可配置应报",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "调休周末识别漏报",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "补齐后恢复正常统计",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "补齐后历史提醒关闭",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "定时任务自动生成提醒",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "提醒去重",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "提前站内提醒生成",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "截止前提醒不提前关闭",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "提交当天数据后关闭截止提醒",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "当前月禁止提前确认",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "漏报月份不能确认",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "月度汇总等于提交明细",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业不能确认月度",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "月度退回修改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "退回明细可修改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "修改重提后汇总正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "月度确认成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "确认快照及核对轨迹一致",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已确认明细禁止改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "旧入口不能绕过确认锁",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "确认月份禁止改日历",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "确认后禁止改计报起点",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "确认后禁止改工作日口径",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "匿名访问拒绝",
+    "passed": true,
+    "detail": ""
+  }
+]

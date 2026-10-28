@@ -1,0 +1,31 @@
+# Local credentials and environment
+.env
+.env.local
+.env.*.local
+*.local.*
+**/runtime.local.json
+**/initial-admin.local.txt
+**/application-local.yml
+**/application-local.yaml
+seed-credentials*
+# Dependencies, outputs and local services
+node_modules/
+target/
+dist/
+logs/
+*.log
+backups/
+uploads/
+run/
+release/
+release.local/
+downloads.local/
+__pycache__/
+*.pyc
+*.jar
+*.zip
+*.sql.gz
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

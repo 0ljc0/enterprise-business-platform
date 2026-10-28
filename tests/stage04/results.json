@@ -1,0 +1,227 @@
+[
+  {
+    "case": "可查询有效企业选择项",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "入驻前无法访问企业业务",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "无效姓名拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "不存在企业拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "保存员工申请草稿",
+    "passed": true,
+    "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+  },
+  {
+    "case": "跨企业重复有效申请拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他申请人无权查详情",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业管理员无权查详情",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "提交申请",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复提交拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审核前无归属",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业无法看到申请",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不能审批",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工无审批权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "空驳回意见拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事审核驳回",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "驳回轨迹可见",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "驳回后修改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "驳回后重提",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "审批轮次增加",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业管理员审核通过",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "通过后旧会话失效",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "账号档案企业正确关联",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "获得普通员工角色",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "入职不继承历史企业管理权限",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "双轮审核记录保存",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复审核拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已有企业不可重复申请",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "个人允许字段修改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "个人不能篡改工号岗位或企业",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "个人不能修改他人",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不能查看档案",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业不能修改档案",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业人事修改档案",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业列表仅本企业",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事不能授予角色",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "禁止授予平台角色",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "禁止授予企业管理员",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业业务角色授权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "角色变更旧会话失效",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "业务角色授权生效",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "撤销业务角色",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "撤销后旧会话失效",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重登后业务权限已撤销",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "匿名接口拒绝",
+    "passed": true,
+    "detail": ""
+  }
+]

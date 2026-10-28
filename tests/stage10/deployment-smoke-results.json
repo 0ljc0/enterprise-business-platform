@@ -1,0 +1,77 @@
+[
+  {
+    "case": "s2_platform最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_admin最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_hr最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_business最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_finance最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_employee最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_b_admin最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_b_employee最终部署登录与菜单",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "升级后归档状态和确认工作量保留",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "升级后报价快照金额保留",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "最终后端关闭管理入口/druid/index.html",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "最终后端关闭管理入口/swagger-ui/index.html",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "最终后端关闭管理入口/v3/api-docs",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "前端安全响应头",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "最终运行JAR与干净包一致",
+    "passed": true,
+    "detail": ""
+  }
+]

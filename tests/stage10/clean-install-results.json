@@ -1,0 +1,77 @@
+{
+  "database": "ry_platform_cleancheck10_20261026165242",
+  "cases": [
+    {
+      "case": "干净安装只有一个管理员",
+      "passed": true
+    },
+    {
+      "case": "干净安装无演示企业和员工",
+      "passed": true
+    },
+    {
+      "case": "干净安装无演示任务",
+      "passed": true
+    },
+    {
+      "case": "验证码开启且公开注册关闭",
+      "passed": true
+    },
+    {
+      "case": "干净部署使用非root账号",
+      "passed": true
+    },
+    {
+      "case": "部署包已去除开发数据库凭据",
+      "passed": true
+    },
+    {
+      "case": "部署包令牌密钥外置",
+      "passed": true
+    },
+    {
+      "case": "随机管理员密码可通过Nginx登录",
+      "passed": true
+    },
+    {
+      "case": "干净环境业务菜单可用",
+      "passed": true
+    },
+    {
+      "case": "干净环境统计企业数为零",
+      "passed": true
+    },
+    {
+      "case": "后端关闭管理页面/druid/index.html",
+      "passed": true
+    },
+    {
+      "case": "管理员也不能绕过管理页面关闭/druid/index.html",
+      "passed": true
+    },
+    {
+      "case": "后端关闭管理页面/v3/api-docs",
+      "passed": true
+    },
+    {
+      "case": "管理员也不能绕过管理页面关闭/v3/api-docs",
+      "passed": true
+    },
+    {
+      "case": "后端关闭管理页面/swagger-ui/index.html",
+      "passed": true
+    },
+    {
+      "case": "管理员也不能绕过管理页面关闭/swagger-ui/index.html",
+      "passed": true
+    },
+    {
+      "case": "默认弱密码不能登录",
+      "passed": true
+    },
+    {
+      "case": "停止脚本成功停止本站点",
+      "passed": true
+    }
+  ]
+}

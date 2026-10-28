@@ -1,0 +1,258 @@
+{
+  "companyId": 3,
+  "projectId": 1,
+  "cases": [
+    {
+      "case": "生产构建首页可访问",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "前端历史路由刷新可访问",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "Nginx关闭管理路径/druid/",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "Nginx关闭管理路径/swagger-ui/index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "Nginx关闭管理路径/v3/api-docs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "验证码保持启用",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "匿名业务接口拒绝",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "企业执照通过代理上传",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+    },
+    {
+      "case": "企业保存入驻申请",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+    },
+    {
+      "case": "企业提交审核",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "平台驳回企业申请",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业修改重提",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+    },
+    {
+      "case": "企业重新提交",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "平台通过企业申请",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业管理员角色生效",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "员工保存入驻申请",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+    },
+    {
+      "case": "员工提交",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业驳回员工申请",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "员工修改申请",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+    },
+    {
+      "case": "员工重提",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业通过员工申请",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "审核后旧员工会话失效",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "平台新建任务",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 3}"
+    },
+    {
+      "case": "平台发布任务",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "任务发布方维护报价",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业报名平台任务",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 3}"
+    },
+    {
+      "case": "平台审核报名",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业创建执行项目",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+    },
+    {
+      "case": "其他企业不可读取验收项目",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "企业分配给入驻员工",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 3}"
+    },
+    {
+      "case": "员工领取",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "员工填写工作量",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 3}"
+    },
+    {
+      "case": "员工提交工作量",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业确认工作量",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "员工完成分配任务",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "企业填写每日业务产值",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200, 'data': 3}"
+    },
+    {
+      "case": "企业提交业务产值",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "确认工作量与项目进度一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "预估金额与已报产值分开",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "Nginx代理Excel可解析",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "普通员工不能导出企业报表",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "项目complete",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "项目archive",
+      "passed": true,
+      "detail": "{'msg': '操作成功', 'code': 200}"
+    },
+    {
+      "case": "归档后项目只读",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "企业获得统计和业务菜单",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "员工无管理员按钮权限",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "8并发32次统计查询均成功",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "case": "员工退出登录",
+      "passed": true,
+      "detail": "{'msg': '退出成功', 'code': 200}"
+    },
+    {
+      "case": "退出后旧令牌失效",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "loadSmoke": {
+    "requests": 32,
+    "concurrency": 8,
+    "p50Ms": 31.28,
+    "p95Ms": 71.47,
+    "maxMs": 72.81
+  }
+}

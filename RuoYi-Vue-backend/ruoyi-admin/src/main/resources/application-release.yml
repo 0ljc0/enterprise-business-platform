@@ -1,0 +1,46 @@
+# External secrets are mandatory in this deployment profile.
+security:
+  management-pages-enabled: false
+server:
+  address: 127.0.0.1
+  port: ${APP_PORT:18080}
+  tomcat:
+    threads:
+      max: 64
+      min-spare: 4
+    accept-count: 100
+spring:
+  devtools:
+    restart:
+      enabled: false
+  datasource:
+    druid:
+      master:
+        url: ${APP_DB_URL}
+        username: ${APP_DB_USER}
+        password: ${APP_DB_PASSWORD}
+      initialSize: 2
+      minIdle: 2
+      maxActive: 20
+      webStatFilter:
+        enabled: false
+      statViewServlet:
+        enabled: false
+  data:
+    redis:
+      host: ${APP_REDIS_HOST:127.0.0.1}
+      port: ${APP_REDIS_PORT:6379}
+      database: ${APP_REDIS_DB:5}
+      password: ${APP_REDIS_PASSWORD:}
+token:
+  secret: ${APP_TOKEN_SECRET}
+ruoyi:
+  profile: ${APP_UPLOAD_PATH}
+logging:
+  level:
+    com.ruoyi: info
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false

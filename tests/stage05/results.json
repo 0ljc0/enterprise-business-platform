@@ -1,0 +1,267 @@
+[
+  {
+    "case": "人事仅查本企业人员",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "管理员可查人员详情",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "其他企业详情拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工无人员管理权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人员状态筛选",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "门禁员工可按账号编号搜索",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "状态值校验",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "分页范围校验",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "本企业人员统计",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事维护档案",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "历史版本更新拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业修改拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人员修改轨迹",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "人事导出成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "导出UTF8签名",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "CSV正确分行且公式中和",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工禁止导出",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "新增平台门禁记录",
+    "passed": true,
+    "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+  },
+  {
+    "case": "重复门禁记录拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "门禁不冒充真实设备生效",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "门禁无效期限拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业授权员工拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "普通员工无授权权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "修改授权有效期",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "门禁旧版本拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "门禁历史可追溯",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业门禁轨迹拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "撤销授权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已撤销状态正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重新记录授权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "未结束任务阻止离职",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "本人离职操作拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业离职拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "空离职原因拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "办理离职成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职旧会话失效",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职仍能登录申请入驻",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职不保留企业业务角色",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职无企业业务数据权限",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职无本人在职资料",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职状态及日期正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职自动撤销门禁记录",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职不可重新授权",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职统计正确",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职不可修改档案",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "离职轨迹保存",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复离职拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "无归属账号不能直接补录",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已授权缺档账号候选",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已授权账号补录成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复补录拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "补录轨迹可查询",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "历史门禁草稿不显示有效",
+    "passed": true,
+    "detail": ""
+  }
+]

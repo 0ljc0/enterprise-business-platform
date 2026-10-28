@@ -1,0 +1,1985 @@
+[
+  {
+    "stage": "03",
+    "database": "ry_platform_s3test_20261026165239_03",
+    "exitCode": 0,
+    "passed": 31,
+    "total": 31,
+    "cases": [
+      {
+        "case": "营业执照上传",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "伪装PDF拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "非法信用代码拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "冒用他人附件拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "保存草稿",
+        "passed": true,
+        "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+      },
+      {
+        "case": "重复申请拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "本人查看申请",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不可读申请",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "无token不可查看",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "草稿提交",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复提交拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通用户不可审核",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "空审核意见拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "驳回成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "驳回意见留存",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "驳回后修改成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "旧版本修改拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重新提交成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审批轮次递增",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审核通过成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复审批拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "通过状态及双轮轨迹",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重新登录获得企业管理员角色",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业正常且仅看自己",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业资料修改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不可修改其他企业",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已入驻账号不可重复申请",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "禁止平台自审",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "本人可下载执照",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台可下载执照",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业禁止下载执照",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "stage": "04",
+    "database": "ry_platform_s4test_20261026165239_04",
+    "exitCode": 0,
+    "passed": 45,
+    "total": 45,
+    "cases": [
+      {
+        "case": "可查询有效企业选择项",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "入驻前无法访问企业业务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "无效姓名拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "不存在企业拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "保存员工申请草稿",
+        "passed": true,
+        "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+      },
+      {
+        "case": "跨企业重复有效申请拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他申请人无权查详情",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业管理员无权查详情",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "提交申请",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复提交拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审核前无归属",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业无法看到申请",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不能审批",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工无审批权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "空驳回意见拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事审核驳回",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "驳回轨迹可见",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "驳回后修改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "驳回后重提",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审批轮次增加",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业管理员审核通过",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "通过后旧会话失效",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "账号档案企业正确关联",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "获得普通员工角色",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "入职不继承历史企业管理权限",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "双轮审核记录保存",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复审核拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已有企业不可重复申请",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "个人允许字段修改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "个人不能篡改工号岗位或企业",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "个人不能修改他人",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不能查看档案",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不能修改档案",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业人事修改档案",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业列表仅本企业",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事不能授予角色",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "禁止授予平台角色",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "禁止授予企业管理员",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业业务角色授权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "角色变更旧会话失效",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "业务角色授权生效",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "撤销业务角色",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "撤销后旧会话失效",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重登后业务权限已撤销",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "匿名接口拒绝",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "stage": "05",
+    "database": "ry_platform_s5test_20261026165239_05",
+    "exitCode": 0,
+    "passed": 53,
+    "total": 53,
+    "cases": [
+      {
+        "case": "人事仅查本企业人员",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "管理员可查人员详情",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业详情拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工无人员管理权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人员状态筛选",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "门禁员工可按账号编号搜索",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "状态值校验",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "分页范围校验",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "本企业人员统计",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事维护档案",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "历史版本更新拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业修改拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人员修改轨迹",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事导出成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "导出UTF8签名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "CSV正确分行且公式中和",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工禁止导出",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "新增平台门禁记录",
+        "passed": true,
+        "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+      },
+      {
+        "case": "重复门禁记录拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "门禁不冒充真实设备生效",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "门禁无效期限拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业授权员工拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工无授权权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "修改授权有效期",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "门禁旧版本拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "门禁历史可追溯",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业门禁轨迹拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "撤销授权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已撤销状态正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重新记录授权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未结束任务阻止离职",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "本人离职操作拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业离职拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "空离职原因拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "办理离职成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职旧会话失效",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职仍能登录申请入驻",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职不保留企业业务角色",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职无企业业务数据权限",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职无本人在职资料",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职状态及日期正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职自动撤销门禁记录",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职不可重新授权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职统计正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职不可修改档案",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "离职轨迹保存",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复离职拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "无归属账号不能直接补录",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已授权缺档账号候选",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已授权账号补录成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复补录拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "补录轨迹可查询",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "历史门禁草稿不显示有效",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "stage": "06",
+    "database": "ry_platform_s6test_20261026165239_06",
+    "exitCode": 0,
+    "passed": 48,
+    "total": 48,
+    "cases": [
+      {
+        "case": "默认仅工作日及提醒模式",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不可配置规则",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "计报起点配置",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "周末不计入漏报",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "连续工作日计数正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "漏报不限制既有任务查询",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "模式保持仅提醒",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业漏报查询拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工无填报查询权",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务不能保存",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "负值拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未来日期拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "不同计量单位拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "非法日期查询拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "非法月份拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "正常提交并查询",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "同日重复保存拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已提交不可直接改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复提交拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业直接明细拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业提交拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "草稿不算完成提交",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "单独配置节假日",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "节假日从漏报移除",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "调休周末可配置应报",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "调休周末识别漏报",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "补齐后恢复正常统计",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "补齐后历史提醒关闭",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "定时任务自动生成提醒",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "提醒去重",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "提前站内提醒生成",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "截止前提醒不提前关闭",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "提交当天数据后关闭截止提醒",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "当前月禁止提前确认",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "漏报月份不能确认",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "月度汇总等于提交明细",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不能确认月度",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "月度退回修改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "退回明细可修改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "修改重提后汇总正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "月度确认成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "确认快照及核对轨迹一致",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已确认明细禁止改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "旧入口不能绕过确认锁",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "确认月份禁止改日历",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "确认后禁止改计报起点",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "确认后禁止改工作日口径",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "匿名访问拒绝",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "stage": "07",
+    "database": "ry_platform_s7test_20261026165239_07",
+    "exitCode": 0,
+    "passed": 64,
+    "total": 64,
+    "cases": [
+      {
+        "case": "普通员工不能发布",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务不能发布",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "目标量必须为正",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业容量校验",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台创建草稿",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不可查看未发布平台草稿",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台修改草稿",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "历史版本修改拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台发布任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台任务详情不暴露发布账号信息",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业可查询可报名任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "发布后禁止改任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不可改平台任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工不可报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "报名工作量正数校验",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业A报名成功",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业重复报名拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业B无法查A报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不可审核报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "空审核意见拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "待审核允许撤回",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "撤回后可重新提交",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台驳回报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "驳回后可修改重提",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审核轮次递增",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台审核通过",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "报名通过可进入分配环节",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已通过不可取消",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复审核拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审批意见历史留存",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "承诺量超过剩余总量拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业B在剩余容量内报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已通过数量统计正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "满容量任务退出可报名列表",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业仅看自己的报名记录",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台可集中查看报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不能创建共享任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业内部任务容量固定一家",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业创建内部草稿",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不能改草稿",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "内部草稿不公开",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业发布内部任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "内部任务不在其他企业列表",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "内部任务不向其他企业公开",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "内部任务跨企业报名拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "本企业可承接内部任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "内部任务无需平台重复审核",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "并发审核不突破企业容量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审核再次校验剩余工作量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "并发审核不突破总工作量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "任务关闭招募",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "关闭后不能通过待审报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "关闭后可驳回待审报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "关闭后不可重提",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台任务关闭",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "关闭保留已通过报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "关闭任务不在可报名列表",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "截止已过不可发布",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "截止后不能报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "截止后已有报名仍可审核",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "连续漏报仍仅提醒",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "漏报不会阻止企业报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "数据库约束拒绝企业共享",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "匿名任务查询拒绝",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "stage": "08",
+    "database": "ry_platform_s8test_20261026165239_08",
+    "exitCode": 0,
+    "passed": 80,
+    "total": 80,
+    "cases": [
+      {
+        "case": "已通过任务可作为项目来源",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "历史缺日期演示任务不进入候选",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "历史缺日期任务明确拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务不可建项目",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不可关联报名",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审核通过报名建项目",
+        "passed": true,
+        "detail": "{'msg': '操作成功', 'code': 200, 'data': 1}"
+      },
+      {
+        "case": "重复关联拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业项目目标取承诺量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台可查看项目进度",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业项目详情拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工不能查看全项目成员",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业员工分配拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "分配超承诺量拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未完成项目不能确认",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "向员工分配任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "第二次分配超剩余量拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "员工只看本人分配",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "同企业其他员工不可查详情",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不可领取",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "同企业他人不可领取",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未领取不可上报",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "员工领取任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复领取拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未来工作日期拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "零工作量拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "超过分配量拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "保存每日工作量草稿",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "同日期重复上报拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "草稿不计入进度",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "提交工作量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "待审核不计入进度",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已提交不能直接改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业无权审核",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "审核退回",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "退回后员工可更正",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "更正重提",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "工作量确认",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "重复确认工作量拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "进度30百分比准确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "尚未达到分配量不能完成",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已确认不得直接改",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "更正退回需意见",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已确认留痕退回更正",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "退回更正暂不计入进度",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "更正数量保存",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "更正后进度60百分比",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "员工完成任务",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已完成分配禁止更正",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "作废草稿留痕",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "作废记录可修改后再提",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "业务岗不能审核自己工作量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "项目总量进度百分比正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "成员工作量汇总正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "工作量更正与审批可追溯",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未确认项目不能归档",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "项目完成确认",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业执行状态更新完成",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "项目归档",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "归档状态可查询",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "归档后禁止再分配",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "归档后禁止修改工作记录",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "任务完成确认",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "任务已完成状态正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "关联已有同单位项目",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "不同单位不能混入同一项目",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨任务同成员汇总不重复",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "每条分配进度独立",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "并发分配不超企业承诺量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "待领取分配可取消",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "取消后可重新分配",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "匿名执行接口拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未审核报名不得建项目",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台任务企业项目目标取各自承诺量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台任务不能因一家完成就提前结束",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业不能确认平台任务完成",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业B核验自己的工作量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业B独立进度100百分比",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "全部企业完成后平台任务可完成",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务不可读取其他企业项目",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "并发同日报量只保存一条",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  },
+  {
+    "stage": "09",
+    "database": "ry_platform_s9test_20261026165239_09",
+    "exitCode": 0,
+    "passed": 63,
+    "total": 63,
+    "cases": [
+      {
+        "case": "任务发布方报价",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "计划工作量按快照单价估值",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "实际确认工作量独立展示",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "进度仅计已确认量",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "发布方更新报价",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已有项目快照不随任务报价重算",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "报价旧版本拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "负报价拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "报价超过四位小数拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务不能修改任务报价",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台不能改企业发布方报价",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不能改报价",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "未报价不按零估算",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "已有缺价项目不被自动覆盖",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "本企业主动补录缺失快照",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "补录后金额可计算",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "快照补录幂等且不覆盖",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "其他企业不能补录快照",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "归档项目禁止补录报价",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "归档缺价报表保留未报价",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "新旧项目分别保留报价快照",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "任务单位变更后旧报价失效",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台工作台企业数",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台工作台员工去重人数",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台工作台项目数",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台本月产值仅计已报",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业工作台范围正确",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "日趋势与已报明细一致",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "月趋势与已报明细一致",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "草稿退回金额单列",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务可查看本企业产值",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业统计查询拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事无财务统计权限",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事仅获得人员报表",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事员工档案范围",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务无人员明细权限",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "业务岗无财务核对报表权限",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工无统计工作台",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业无平台全量报表",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台可查全量业务报表",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "非法报表类型拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "非法分组拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "过大日期区间拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "项目统计与执行明细一致",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "财务按完整自然月核对",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "无快照不伪造零差异",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "overview Excel可解析",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "outputs Excel可解析",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "projects Excel可解析",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "estimates Excel可解析",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "personnel Excel可解析",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "reconciliation Excel可解析",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "full Excel可解析",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "Excel中文工作表与冻结筛选",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "Excel公式样文本不执行",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "跨企业Excel导出拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "企业伪造全量导出拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "人事财务Excel导出拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "普通员工Excel导出拒绝",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "平台全量Excel包含业务分表",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "报表金额精度不经浮点丢失",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "Excel高精度金额按文本完整保留",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "case": "匿名报表查询拒绝",
+        "passed": true,
+        "detail": ""
+      }
+    ]
+  }
+]

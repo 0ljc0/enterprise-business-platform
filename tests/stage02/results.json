@@ -1,0 +1,357 @@
+[
+  {
+    "case": "s2_platform login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_admin login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_hr login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_business login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_finance login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务无写权限",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_employee login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "员工无系统授权权限",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_b_admin login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_b_employee login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_unbound login/menu",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "A列表仅企业A",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "B列表仅企业B",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台跨企业查询",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "A伪造companyId拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "A直接读取B编号拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "A修改B记录拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "财务直接修改拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "员工产值接口拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "无归属账号拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "无token拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "非法模块拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "非法分页拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "负产值拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "归属不可转移",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "正常编辑成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "旧版本重复更新拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "B数据未被修改",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "A伪造企业新增拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "正常新增成功",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "员工档案仅本人",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "员工不可读同企业他人档案",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "company A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "company_apply A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "employee_apply A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "employee_info A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "access_permission A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "daily_output A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "project A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "task A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "task_signup A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "task_assignment A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "work_record A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "audit_record A查询隔离",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "task 员工本人范围",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "task 员工拒绝跨企业详情",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "task_assignment 员工本人范围",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "task_assignment 员工拒绝跨企业详情",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "work_record 员工本人范围",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "work_record 员工拒绝跨企业详情",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "表名SQL注入拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复有效企业归属拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业分配外键拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "跨企业工作记录外键拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "重复每日填报拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "申请人自审拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "平台任务归属约束拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "已登录账号离职即时拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "企业停用即时拒绝",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_platform 精确菜单矩阵",
+    "passed": true,
+    "detail": "['company', 'company_apply', 'employee_apply', 'employee_info', 'access_permission', 'daily_output', 'project', 'task', 'task_signup', 'task_assignment', 'work_record', 'audit_record']"
+  },
+  {
+    "case": "s2_platform 精确按钮矩阵",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_admin 精确菜单矩阵",
+    "passed": true,
+    "detail": "['company', 'company_apply', 'employee_apply', 'employee_info', 'access_permission', 'daily_output', 'project', 'task', 'task_signup', 'task_assignment', 'work_record', 'audit_record']"
+  },
+  {
+    "case": "s2_a_admin 精确按钮矩阵",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_hr 精确菜单矩阵",
+    "passed": true,
+    "detail": "['employee_apply', 'employee_info', 'access_permission']"
+  },
+  {
+    "case": "s2_a_hr 精确按钮矩阵",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_business 精确菜单矩阵",
+    "passed": true,
+    "detail": "['company', 'daily_output', 'project', 'task', 'task_signup', 'task_assignment', 'work_record']"
+  },
+  {
+    "case": "s2_a_business 精确按钮矩阵",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_finance 精确菜单矩阵",
+    "passed": true,
+    "detail": "['company', 'daily_output', 'project', 'work_record']"
+  },
+  {
+    "case": "s2_a_finance 精确按钮矩阵",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "case": "s2_a_employee 精确菜单矩阵",
+    "passed": true,
+    "detail": "['employee_apply', 'employee_info', 'task', 'task_assignment', 'work_record']"
+  },
+  {
+    "case": "s2_a_employee 精确按钮矩阵",
+    "passed": true,
+    "detail": ""
+  }
+]
